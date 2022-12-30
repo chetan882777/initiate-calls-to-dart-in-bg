@@ -35,7 +35,7 @@ class MainScreenState extends State<MyApp> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     Center(
-                      child: RaisedButton(
+                      child: TextButton(
                         child: const Text('Run'),
                         onPressed: () {
                           InitiateCalls.test(callback);
