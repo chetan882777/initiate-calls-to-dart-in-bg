@@ -34,7 +34,7 @@ public class InitiateCallsToDartInBgPlugin implements FlutterPlugin, MethodCallH
     @Override
     public void onMethodCall(@NonNull MethodCall call, @NonNull Result result) {
 
-        if (call.method.equals("initializeService")) {
+        if (call.method.equals("initialize")) {
 
             ArrayList args = call.arguments();
             long callBackHandle = (long) args.get(0);
